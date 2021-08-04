@@ -1,6 +1,7 @@
 import dsl.*
 
 fun main() {
+    // Compile a set of high-level commands in DSL into raw brainfuck code
     val compiled = brainfck {
         add(10)
 
